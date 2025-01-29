@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header,
+footer {
+    background-color: #192a56;
+    padding-top: 16px;
+    color: #fff;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+header > .container,
+footer > .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+
+nav {
+    background-color: #575fcf;
+    padding: 16px 0;
+    display: none;
+}
+
+nav li{
+    list-style: none;
+    display: inline;
+    margin-right: 16px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+nav li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.menuh {
+    width: 32px;
+    cursor: pointer;
+}
+
+.menuh span {
+    height: 2px;
+    width: 100%;
+    background-color: white;
+    display: block;
+    margin-bottom: 4px;
+    cursor: pointer;
+}
+
+.container-flex {
+    display: flex;
+}
+
+#loja img{
+    max-width: 400px;
+    margin-right: 24px;
+}
+
+section {
+    padding: 48px 0px;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+.listav {
+    flex-wrap: wrap;
+}
+
+.listav li {
+    list-style: none;
+    max-width: 30%;
+    margin-bottom: 24px;
+}
+
+.listav li img {
+    max-width: 100%;
+}
+
+.listav li h3 {
+    margin: 16px;
+}
+
+.itemcenter {
+    margin: 0px 5%;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 8px 0px;
+    border-radius: 6px;
+    border: none;
+    background-color: #119759;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-style: italic;
+    cursor: pointer;
+    
+}
+
+.price{
+    margin: 16px 0px;
+    display: block;
+}
+
+.price del {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.form-camp {
+    margin-bottom: 16px;
+}
+
+.form-camp label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-camp input,
+.form-camp textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+.form-camp textarea {
+    resize: none;
+    height: 120px;
+}
+
+form {
+    max-width: 360px;
+}
+
+footer li{
+    list-style: none;
+    margin-left: 16px;
+}
+
+footer li img {
+    height: 32px;
+}
