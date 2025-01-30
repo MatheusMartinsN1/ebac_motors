@@ -7,7 +7,10 @@ $(document).ready(function(){
         $('nav').slideToggle()
     })
 
-    $('#tel').mask('(00) 00000-0000')
+    $('#tel').mask('(00) 00000-0000', {
+        placeholder: '(xx) xxxxx-xxxx'
+    })
+
 
     $('form').validate({
         rules: {
